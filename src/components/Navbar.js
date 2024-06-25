@@ -34,22 +34,22 @@ function Navbar() {
   }, [sidebar]);
 
   return (
-    <nav className="absolute md:top-[55px] top-0 w-screen bg-slate-500">
-      <div className="container md:flex hidden justify-between items-center mx-auto py-5 bg-lime-600">
+    <nav className="absolute md:top-[55px] top-0 w-full ">
+      <div className="container md:flex hidden justify-between items-center mx-auto py-5 ">
         <div>LOGO</div>
         <div>
-          <ul className='flex gap-10 items-center'>
+          <ul className='flex gap-10 text-white z-50 font-semibold items-center'>
             <Link href={`/`}>
-              <li className='hover:scale-125 hover:duration-700 hover:text-[#CFA670]'>Home</li>
+              <li className='hover:scale-125 transition-all duration-700 ease-in-out  hover:text-[#CFA670]'>Home</li>
             </Link>
             <Link href={`/about`}>
-              <li className='hover:scale-125 hover:duration-700 hover:text-[#CFA670]'>About</li>
+              <li className='hover:scale-125 transition-all duration-700 ease-in-out  hover:text-[#CFA670]'>About</li>
             </Link>
             <Link href={`/menu`}>
-              <li className='hover:scale-125 hover:duration-700 hover:text-[#CFA670]'>Menu</li>
+              <li className='hover:scale-125 transition-all duration-700 ease-in-out  hover:text-[#CFA670]'>Menu</li>
             </Link>
             <Link href={`/contactus`}>
-              <li className='hover:scale-125 hover:duration-700 hover:text-[#CFA670]'>Contact</li>
+              <li className='hover:scale-125 transition-all duration-700 ease-in-out  hover:text-[#CFA670]'>Contact</li>
             </Link>
             <Link href={`/reservation`}>
               <button className='px-4 py-3 border'>Reservation</button>
@@ -57,11 +57,11 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <div className='w-full flex md:hidden py-7 bg-black justify-between items-center px-5'>
+      <div className='w-full flex md:hidden py-5 justify-between items-center px-5'>
         <h1 className='text-white'>LOGO</h1>
         <FaBars className='text-white text-3xl cursor-pointer' onClick={toggleSidebar} />
       </div>
-      <div ref={sidebarRef} className={`fixed top-0 left-0 h-full w-64 bg-slate-800 z-50 transform ${sidebar ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out`}>
+      <div ref={sidebarRef} className={`fixed top-0 right-0 h-full w-64 bg-slate-800 z-50 transform ${sidebar ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
         <div className='flex justify-between items-center p-5'>
           <h1 className='text-white'>LOGO</h1>
           <FaTimes className='text-white text-3xl cursor-pointer' onClick={toggleSidebar} />

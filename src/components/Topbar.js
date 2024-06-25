@@ -8,7 +8,7 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 
 function Topbar() {
   return (
-    <div className="md:absolute md:top-0 md:h-[55px] lg:flex hidden px-44 container mx-auto items-center justify-between text-white md:w-screen bg-[#CFA670]">
+    <div className=" md:h-[55px] lg:flex hidden px-44 container mx-auto items-center justify-between text-white w-full bg-[#CFA670]">
       <div className='flex gap-16'>
       <p>
         <IoCall className='inline-block text-xl mr-1' /> <span className='text-sm font-medium'>+91 7980702738</span>
