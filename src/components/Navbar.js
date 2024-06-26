@@ -36,7 +36,9 @@ function Navbar() {
   return (
     <nav className="absolute md:top-[55px] top-0 w-full ">
       <div className="container md:flex hidden justify-between items-center mx-auto py-5 ">
-        <div>LOGO</div>
+        <div>
+          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-20 h-20' />
+        </div>
         <div>
           <ul className='flex gap-10 text-white z-50 font-semibold items-center'>
             <Link href={`/`}>
@@ -58,31 +60,35 @@ function Navbar() {
         </div>
       </div>
       <div className='w-full flex md:hidden py-5 justify-between items-center px-5'>
-        <h1 className='text-white'>LOGO</h1>
-        <FaBars className='text-white text-3xl cursor-pointer' onClick={toggleSidebar} />
-      </div>
-      <div ref={sidebarRef} className={`fixed top-0 right-0 h-full w-64 bg-slate-800 z-50 transform ${sidebar ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
-        <div className='flex justify-between items-center p-5'>
-          <h1 className='text-white'>LOGO</h1>
-          <FaTimes className='text-white text-3xl cursor-pointer' onClick={toggleSidebar} />
+      <div>
+          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-14 h-14' />
         </div>
-        <ul className='flex flex-col gap-5 mt-10 px-5'>
+        <FaBars className='text-white text-2xl cursor-pointer' onClick={toggleSidebar} />
+      </div>
+      <div ref={sidebarRef} className={`fixed top-0 right-0 h-full w-64 bg-[#CFA670] z-50 transform ${sidebar ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
+        <div className='flex justify-between items-center p-5'>
+        <div>
+          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-12 h-12' />
+        </div>
+          <FaTimes className='text-black text-2xl cursor-pointer' onClick={toggleSidebar} />
+        </div>
+        <ul className='flex flex-col gap-6 mt-10 px-5'>
           <Link href={`/`} onClick={toggleSidebar}>
-            <li className='text-white hover:text-[#CFA670] cursor-pointer'>Home</li>
+            <li className='text-black hover:text-[#CFA670] font-semibold cursor-pointer'>Home</li>
           </Link>
           <Link href={`/about`} onClick={toggleSidebar}>
-            <li className='text-white hover:text-[#CFA670] cursor-pointer'>About</li>
+            <li className='text-black hover:text-[#CFA670] font-semibold cursor-pointer'>About</li>
           </Link>
           <Link href={`/menu`} onClick={toggleSidebar}>
-            <li className='text-white hover:text-[#CFA670] cursor-pointer'>Menu</li>
+            <li className='text-black hover:text-[#CFA670] font-semibold cursor-pointer'>Menu</li>
           </Link>
           <Link href={`/contactus`} onClick={toggleSidebar}>
-            <li className='text-white hover:text-[#CFA670] cursor-pointer'>Contact</li>
-          </Link>
-          <Link href={`/reservation`} onClick={toggleSidebar}>
-            <button className='px-4 py-3 border bg-white text-black'>Reservation</button>
+            <li className='text-black hover:text-[#CFA670] font-semibold cursor-pointer'>Contact</li>
           </Link>
         </ul>
+        <footer className='absolute bottom-8 left-3'>
+          <p className='text-sm font-semibold'>© 2024 Barfi The Food Magician</p>
+        </footer>
       </div>
     </nav>
   );

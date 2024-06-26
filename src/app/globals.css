@@ -21,6 +21,14 @@
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
-    opacity: 1; 
+    opacity: 1;
 }
-  
+
+.about-bg-fixed {
+    background-image: url('https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/testimonialbg01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
