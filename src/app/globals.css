@@ -10,6 +10,13 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.home-bg {
+    background-image: url('https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/home-header01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .contact-bg {
     background-image: url('https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/header01.jpg');
     background-position: center;
@@ -22,6 +29,15 @@
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 1;
     opacity: 1;
+}
+
+
+.home-bg-fixed {
+    background-image: url('https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/amazing01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .about-bg-fixed {

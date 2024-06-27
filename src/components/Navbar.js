@@ -59,7 +59,8 @@ function Navbar() {
           </ul>
         </div>
       </div>
-      <div className='w-full flex md:hidden py-5 justify-between items-center px-5'>
+      {/* Small screen nav  */}
+      <div className='w-full flex md:hidden py-5 justify-between items-center px-4'>
       <div>
           < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-14 h-14' />
         </div>
