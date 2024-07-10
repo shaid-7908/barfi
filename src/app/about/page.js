@@ -26,7 +26,7 @@ export default function About() {
                     QUALITY OF RESTURANT
                   </h3>
                 </div>
-                <p className="text-base font-medium md:font-semibold">
+                <p className="text-sm md:text-base font-medium md:font-semibold ">
                   There are many variations of passages of Lorem Ipsum
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don&apos;t
