@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <main className="min-h-screen z-50 w-full">
       <div className="home-bg flex flex-col gap-3 justify-center items-start lg:px-44 px-4 w-full h-screen">
-        <h1 className="text-[#CFA670] mt-8 font-bold text-3xl">Welcome To</h1>
+        <h1 className="text-[#CFA670] mt-8 font-kristi text-[30px] ">Welcome To</h1>
         <h2 className="text-white font-bold text-4xl lg:text-5xl">
           TASTE ROYAL CUISINE
         </h2>
-        <p className="text-white mt-3 font-semibold lg:w-[40vw]">
+        <p className="text-white mt-3 font-poppins text-sm md:text-base font-medium lg:w-[40vw]">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC, making
           it over 2000 years old.Richard McClintock, a Latin professor at

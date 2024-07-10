@@ -10,12 +10,17 @@ module.exports = {
       container: {
         center: true,
         padding: {
-          DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '4rem',
-          xl: '5rem',
-          '2xl': '11rem',
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "11rem",
         },
+      },
+      fontFamily: {
+        'poppins': ["Poppins", "sans-serif"],
+        'pt': ["PT Serif", "serif"],
+        'kristi': ["Kristi", "cursive"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
