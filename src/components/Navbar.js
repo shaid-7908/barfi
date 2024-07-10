@@ -37,7 +37,7 @@ function Navbar() {
     <nav className="absolute md:top-[55px] top-0 w-full ">
       <div className="container md:flex hidden justify-between items-center mx-auto py-5 ">
         <div>
-          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-20 h-20' />
+          < img alt='na' src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-20 h-20' />
         </div>
         <div>
           <ul className='flex gap-10 text-white z-50 font-semibold items-center'>
@@ -62,14 +62,14 @@ function Navbar() {
       {/* Small screen nav  */}
       <div className='w-full flex md:hidden py-5 justify-between items-center px-4'>
       <div>
-          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-14 h-14' />
+          < img alt='na' src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-14 h-14' />
         </div>
         <FaBars className='text-white text-2xl cursor-pointer' onClick={toggleSidebar} />
       </div>
       <div ref={sidebarRef} className={`fixed top-0 right-0 h-full w-64 bg-[#CFA670] z-50 transform ${sidebar ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out`}>
         <div className='flex justify-between items-center p-5'>
         <div>
-          < img src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-12 h-12' />
+          < img alt='na' src='https://barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-07-at-15.32.47.jpeg' className='w-12 h-12' />
         </div>
           <FaTimes className='text-black text-2xl cursor-pointer' onClick={toggleSidebar} />
         </div>
