@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { IoIosTimer } from "react-icons/io";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link';
 
 
 function Footer() {
@@ -40,9 +41,11 @@ function Footer() {
             </p>
           </div>
           <div className="flex lg:justify-center justify-start mt-36 space-x-6">
-            <span>
-              <FaFacebookF className="text-xl" />
-            </span>
+            <Link href="https://www.facebook.com/Barfi.res/">
+              <span>
+                <FaFacebookF className="text-xl" />
+              </span>
+            </Link>
             <span>
               <FaTwitter className="text-xl" />
             </span>
