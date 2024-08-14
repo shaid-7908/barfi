@@ -4,12 +4,24 @@ import { BsBoxArrowLeft } from 'react-icons/bs';
 
 function Menu() {
   const starters = [
-    { name: 'PINE NUT SBRISALONA', price: '$29.79' },
-    { name: 'AENEAN EU', price: '$19.35' },
-    { name: 'SED FEUGIATE', price: '$25.80' },
-    { name: 'CONSECTETUR', price: '$21.89' },
-    { name: 'CHIKEN RESMI CABAB', price: '$33.59' },
-    { name: 'CHEESE ROLL', price: '$47.24' },
+    { name: 'FISH CUTTON BLUE', price: '299' },
+    { name: 'FISH FINGER', price: '239' },
+    { name: 'DRY CHILLI FISH', price: '289' },
+    { name: 'KANCHI FISH', price: '289' },
+    { name: 'LAT MAI KAI FISH', price: '289' },
+    { name: 'DRY CHILLI PRAWN', price: '339' },
+    { name: 'GOLDEN FRIED PRAWN', price: '339' },
+    { name: 'LAT MAIN KAI PRAWN', price: '339' },
+    { name: 'STUFFED TANDOORI ALOO', price: '189' },
+    { name: 'TANDOORI MASHROOM', price: '239' },
+    { name: 'PANEER TIKKA', price: '239' },
+    { name: 'HARIYALI PANEER TIKKA', price: '259' },
+    { name: 'GONDHORAJ PANEER TIKKA', price: '269' },
+    { name: 'BADSAHI PANEER TIKKA', price: '279' },
+    { name: 'FISH TIKKA', price: '249' },
+    { name: 'FISH FIROZI', price: '289' },
+    { name: 'GONDHORAJ FISH ', price: '269' },
+
   ];
 
   const mains = [
@@ -29,9 +41,9 @@ function Menu() {
           <h3 className='font-semibold text-[#CFA670]'>< BsBoxArrowLeft className='text-xl inline-block mr-2' /> Go Back to Home Page</h3>
         </Link>
       </div>
-      <div className="bg-white px-28 py-12 rounded-lg shadow-lg w-full mx-auto">
-        <div className="grid grid-cols-2 gap-20">
-          <div className='px-8'>
+      <div className="bg-white lg:px-28 py-12 rounded-lg shadow-lg w-full mx-auto">
+        <div className="grid lg:grid-cols-2 gap-20">
+          <div className='lg:px-8 px-3'>
             <h2 className="text-2xl font-bold mb-6">STARTERS</h2>
             {starters.map((item, index) => (
               <div key={index} className="flex justify-between py-2">
@@ -40,8 +52,8 @@ function Menu() {
               </div>
             ))}
           </div>
-          <div className='px-8'>
-            <h2 className="text-2xl font-bold mb-6">MAIN</h2>
+          <div className='lg:px-8 px-3'>
+            <h2 className="text-2xl font-bold mb-6">THALI</h2>
             {mains.map((item, index) => (
               <div key={index} className="flex justify-between py-2">
                 <span className="font-medium text-lg">{item.name}</span>
