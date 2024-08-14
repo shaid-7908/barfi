@@ -22,7 +22,7 @@ function Footer() {
           </p>
           <p className="text-sm font-semibold">
             <MdOutlineMarkEmailRead className="inline-block mr-2 text-[#CFA670] text-xl" />{" "}
-            contact@domain.com
+            barfi.md@barfithefoodmagician.co.in
           </p>
           <p className="text-sm font-semibold">
             <IoCall className="inline-block mr-2 text-[#CFA670] text-xl" /> +91
@@ -60,19 +60,13 @@ function Footer() {
             <IoIosTimer className="inline-block mr-2 text-xl" />
             Monday - Fryday{" "}
             <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 9PM
+            11AM - 10.30PM
           </p>
           <p className="text-sm font-semibold">
             <IoIosTimer className="inline-block mr-2 text-xl" />
-            Saturday{" "}
+            Saturday - Sunday{" "}
             <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 6PM
-          </p>
-          <p className="text-sm font-semibold">
-            <IoIosTimer className="inline-block mr-2 text-xl" />
-            Sunday{" "}
-            <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 12AM
+            11AM - 10.30PM
           </p>
         </div>
       </div>
