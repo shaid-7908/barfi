@@ -206,7 +206,7 @@ export default function Home() {
         <div className="flex justify-between flex-col lg:flex-row gap-10 lg:gap-0 lg:w-[85vw] w-full px-4 lg:px-0 py-14 items-center">
           <div className="lg:w-[37vw] w-full h-96 rounded-md relative overflow-hidden">
             <img
-              src="https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/WhatsApp-Image-2024-05-06-at-14.05.31-1.jpeg"
+              src="/images/BarfiFront.jpg"
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
             />
           </div>

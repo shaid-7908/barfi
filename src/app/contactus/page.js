@@ -43,21 +43,21 @@ function Contactus() {
         <div className='flex shadow-md border hover:scale-110 transition-all duration-700 ease-in-out  rounded-md justify-center items-center flex-col gap-3 lg:gap-2 py-5 lg:w-[25vw] w-full'>
           <TfiEmail className='text-7xl' />
           <h1 className='lg:text-3xl text-2xl font-semibold text-black'>Email</h1>
-          <p className='font-semibold'>contact@domain.com</p>
+          <p className='font-semibold'>barfi.md@barfithefoodmagician.co.in</p>
         </div>
       </div>
       {/* contact form  */}
-      <div className='w-full flex justify-center flex-col lg:flex-row items-center lg:gap-32 gap-8 px-4 py-10' >
-        <div className='lg:w-1/3 w-full h-96 rounded-md relative overflow-hidden'>
-          <img src='https://www.barfithefoodmagician.co.in/sitepad-data/uploads/2024/05/contactus01.jpg' className='w-full h-full object-cover transition-transform duration-500 hover:scale-110' />
+      <div className='w-full flex justify-center flex-col lg:flex-row items-center lg:gap-10 gap-8 px-4 py-10' >
+        <div className='lg:w-[40vw] w-full h-96 rounded-md relative overflow-hidden'>
+          <img src='/images/BarfiFront.jpg' className='w-full h-full object-cover transition-transform duration-500 hover:scale-110' />
         </div>
-        <div className='lg:w-[45vw] pt-8 lg:pt-0 w-full'>
+        <div className='lg:w-[40vw] lg:pl-40 pt-8 lg:pt-0 w-full'>
           <h1 className='font-semibold lg:text-3xl text-2xl mb-6'>Get In Touch With Us</h1>
           <form className='flex flex-col gap-4'>
-            <input type='text' placeholder='Name' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none lg:w-2/3 w-full' />
-            <input type='email' placeholder='Email' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none lg:w-2/3 w-full ' />
-            <input type='tel' placeholder='Phone' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none lg:w-2/3 w-full ' />
-            <textarea placeholder='Message' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none lg:w-2/3 w-full ' rows='4'></textarea>
+            <input type='text' placeholder='Name' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none w-full' />
+            <input type='email' placeholder='Email' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none w-full ' />
+            <input type='tel' placeholder='Phone' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none w-full ' />
+            <textarea placeholder='Message' className='input-field py-3 px-4 border border-gray-300 rounded-md mb-4 focus:outline-none w-full ' rows='4'></textarea>
             <button type='submit' className=' bg-[#CFA670] py-2 px-4 rounded-md font-semibold transition-colors lg:w-2/3 w-full'>
               Submit
             </button>

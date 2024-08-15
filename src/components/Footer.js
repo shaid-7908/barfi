@@ -8,6 +8,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { IoIosTimer } from "react-icons/io";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import Link from 'next/link';
 
 
 function Footer() {
@@ -22,7 +23,7 @@ function Footer() {
           </p>
           <p className="text-sm font-semibold">
             <MdOutlineMarkEmailRead className="inline-block mr-2 text-[#CFA670] text-xl" />{" "}
-            contact@domain.com
+            barfi.md@barfithefoodmagician.co.in
           </p>
           <p className="text-sm font-semibold">
             <IoCall className="inline-block mr-2 text-[#CFA670] text-xl" /> +91
@@ -40,9 +41,11 @@ function Footer() {
             </p>
           </div>
           <div className="flex lg:justify-center justify-start mt-36 space-x-6">
-            <span>
-              <FaFacebookF className="text-xl" />
-            </span>
+            <Link href="https://www.facebook.com/Barfi.res/">
+              <span>
+                <FaFacebookF className="text-xl" />
+              </span>
+            </Link>
             <span>
               <FaTwitter className="text-xl" />
             </span>
@@ -60,19 +63,13 @@ function Footer() {
             <IoIosTimer className="inline-block mr-2 text-xl" />
             Monday - Fryday{" "}
             <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 9PM
+            11AM - 10.30PM
           </p>
           <p className="text-sm font-semibold">
             <IoIosTimer className="inline-block mr-2 text-xl" />
-            Saturday{" "}
+            Saturday - Sunday{" "}
             <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 6PM
-          </p>
-          <p className="text-sm font-semibold">
-            <IoIosTimer className="inline-block mr-2 text-xl" />
-            Sunday{" "}
-            <FaLongArrowAltRight className="text-xl inline-block text-[#CFA670] mx-5" />{" "}
-            8AM - 12AM
+            11AM - 10.30PM
           </p>
         </div>
       </div>
