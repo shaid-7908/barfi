@@ -126,42 +126,46 @@ export default function Home() {
             </p>
             <div className="lg:container lg:mx-auto lg:p-4">
               {/* Food Section */}
-              <div className="">
-                <div className="flex ">
-                  <div className="lg:flex-[50%] hidden"></div>
+              <div className="grid md:grid-cols-2 gird-col-1 gap-4">
+                <div className="flex bg-red-400">
+                  {/* <div className="md:flex-[50%] md:flex hidden"></div> */}
                   <MenuItem
-                    title="Sabhakobir Thali"
-                    price="499 RS"
+                    title="Sabhakobir"
+                    title2="Thali"
+                    price="499"
                     description="Ghee, Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Bori Bhaja, Jhur Jhure Alu Bhaja, Sabji (Veg), Jhaleybhjora Pabda, Borisaler Kosha Mangsho (Mutton), Chatni, Papad, Misti."
                     imageUrl="/images/Bengali-Thali.webp"
                   />
                 </div>
-                <div className="flex">
+                <div className="flex bg-green-300">
                   <MenuItem2
-                    title="Jantar Mantar Thali"
-                    price="699 RS"
+                    title="Jantar "
+                    title2="Mantar Thali"
+                    price="699"
                     description="Ghee, Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Jhur Jhure Alu Bhaja, Bori Bhaja, Sabji (Veg), Pabdar Jhal, Chingri Malaikari, Barfir Pora Chicken, Chatni, Papad, Misti."
                     imageUrl="/images/bengali-Thali2.webp"
                   />
-                  <div className="flex-[50%]"></div>
+                  {/* <div className="md:flex-[50%] md:flex hidden"></div> */}
                 </div>
                 <div className="flex">
-                  <div className="lg:flex-[50%] hidden"></div>
+                  {/* <div className="md:flex-[50%] md:flex hidden"></div> */}
                   <MenuItem
-                    title="Barfi Mahabhoj Thali"
-                    price="899 RS"
+                    title="Barfi "
+                    title2="Mahabhoj Thali"
+                    price="899"
                     description="Ghee Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Jhur Jhure Alu Bhaja, Bori Bhaja Sabji (Veg), Vetki Paturi, Chingri Malaikari, Shile Bata Chicken, Barisaler Kosha Mangsho, Chatni, Papad, Misti."
                     imageUrl="/images/bengali-Thali3.jpg"
                   />
                 </div>
                 <div className="flex">
                   <MenuItem2
-                    title="Hirak Rajer Thali"
-                    price="1399 RS"
+                    title="Hirak"
+                    title2="Rajer Thali"
+                    price="1399"
                     description="Ghee, Rice, Sukto, Sabji Polao, Luchi, Cholardal, Vetki Macher Finger, Bhat, Polao, Shilebata Chicken, Mugmonohor Dal, Jhur Jhure Alubhaja, Boribhaja, Goyna Bori Jhaley Bhora Pabda, Vetki Paturi, Aam Tail Ilish, Chingri Malaikari, Borisaler Kosha Mangsho (Mutton), Chatni, Papad, Misti, Doi."
                     imageUrl="/images/bengali-Thali4.jpg"
                   />
-                  <div className="lg:flex-[50%] hidden"></div>
+                  {/* <div className="md:flex-[50%] md:flex hidden"></div> */}
                 </div>
               </div>
 
