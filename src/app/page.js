@@ -1,11 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import MenuItem from "@/components/MenuItem";
+import MenuItem2 from "@/components/MenuItem2";
 
 export default function Home() {
   return (
     <main className="min-h-screen z-50 w-full">
       <div className="home-bg flex flex-col gap-3 justify-center items-start lg:px-44 px-4 w-full h-screen">
-        <h1 className="text-[#CFA670] mt-8 font-kristi text-[30px] ">Welcome To</h1>
+        <h1 className="text-[#CFA670] mt-8 font-normal text-[60px] font-kristi">
+          Welcome To
+        </h1>
         <h2 className="text-white font-bold text-4xl lg:text-5xl">
           TASTE ROYAL CUISINE
         </h2>
@@ -108,7 +112,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center mt-5 items-center">
         <div className="flex justify-between flex-col lg:flex-row gap-10 lg:gap-0 lg:w-[85vw] w-full px-4 lg:px-0 py-14 items-center">
-          <div className="lg:w-1/2 w-full flex justify-center items-center flex-col space-y-9">
+          <div className=" w-full flex justify-center items-center flex-col space-y-9">
             <div>
               <h1 className="text-[#CFA670] font-bold text-center text-3xl">
                 Checkout
@@ -118,26 +122,84 @@ export default function Home() {
               </h3>
             </div>
             <p className="text-base text-center font-semibold">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don&apos;t look even
-              slightly believable. If you are going to use a passage of Lorem
-              Ipsum, you need to be sure there isn&apos;t anything embarrassing
-              hidden in the middle of text.
+              Experience the Flavors of Bengal: Your Feast Awaits at Checkout!
             </p>
-            <button
-              type="submit"
-              className=" bg-[#CFA670] py-2 px-4 rounded-md font-semibold transition-colors lg:w-auto "
-            >
-              Know More
-            </button>
+            <div className="lg:container lg:mx-auto lg:p-4">
+              {/* Food Section */}
+              <div className="">
+                <div className="flex ">
+                  <div className="lg:flex-[50%] hidden"></div>
+                  <MenuItem
+                    title="Sabhakobir Thali"
+                    price="499 RS"
+                    description="Ghee, Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Bori Bhaja, Jhur Jhure Alu Bhaja, Sabji (Veg), Jhaleybhjora Pabda, Borisaler Kosha Mangsho (Mutton), Chatni, Papad, Misti."
+                    imageUrl="/images/Bengali-Thali.webp"
+                  />
+                </div>
+                <div className="flex">
+                  <MenuItem2
+                    title="Jantar Mantar Thali"
+                    price="699 RS"
+                    description="Ghee, Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Jhur Jhure Alu Bhaja, Bori Bhaja, Sabji (Veg), Pabdar Jhal, Chingri Malaikari, Barfir Pora Chicken, Chatni, Papad, Misti."
+                    imageUrl="/images/bengali-Thali2.webp"
+                  />
+                  <div className="flex-[50%]"></div>
+                </div>
+                <div className="flex">
+                  <div className="lg:flex-[50%] hidden"></div>
+                  <MenuItem
+                    title="Barfi Mahabhoj Thali"
+                    price="899 RS"
+                    description="Ghee Bhat & Polao, Sada Sukto, Mugmonohor Dal (Veg), Jhur Jhure Alu Bhaja, Bori Bhaja Sabji (Veg), Vetki Paturi, Chingri Malaikari, Shile Bata Chicken, Barisaler Kosha Mangsho, Chatni, Papad, Misti."
+                    imageUrl="/images/bengali-Thali3.jpg"
+                  />
+                </div>
+                <div className="flex">
+                  <MenuItem2
+                    title="Hirak Rajer Thali"
+                    price="1399 RS"
+                    description="Ghee, Rice, Sukto, Sabji Polao, Luchi, Cholardal, Vetki Macher Finger, Bhat, Polao, Shilebata Chicken, Mugmonohor Dal, Jhur Jhure Alubhaja, Boribhaja, Goyna Bori Jhaley Bhora Pabda, Vetki Paturi, Aam Tail Ilish, Chingri Malaikari, Borisaler Kosha Mangsho (Mutton), Chatni, Papad, Misti, Doi."
+                    imageUrl="/images/bengali-Thali4.jpg"
+                  />
+                  <div className="lg:flex-[50%] hidden"></div>
+                </div>
+              </div>
+
+              {/* Beverage and Dessert Section */}
+              <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold mb-4">Beverage</h3>
+                  <ul className="space-y-2">
+                    <li>Classic Margarita - $3.99</li>
+                    <li>Mango Mocktail - $2.99</li>
+                    <li>Iced Caramel Macchiato - $4.99</li>
+                    <li>Green Tea Frappuccino - $3.99</li>
+                    <li>Pineapple Coconut Smoothie - $5.99</li>
+                    <li>Raspberry Mojito - $3.99</li>
+                    <li>Blackberry Ginger Sparkler - $2.99</li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold mb-4">Dessert</h3>
+                  <ul className="space-y-2">
+                    <li>Chocolate Mousse - $5.99</li>
+                    <li>Apple Pie - $7.99</li>
+                    <li>Strawberry Shortcake - $6.99</li>
+                    <li>Fruit Tart - $5.99</li>
+                    <li>Tiramisu - $8.99</li>
+                    <li>Chocolate Lava Cake - $6.99</li>
+                    <li>Cheesecake - $5.99</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="lg:w-[37vw] w-full h-96 rounded-md relative overflow-hidden">
+          {/* <div className="lg:w-[37vw] w-full h-96 rounded-md relative overflow-hidden">
             <img
               src="/images/WhatsApp Image 2024-06-21 at 20.30.25_939edbd5.jpg"
               className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
             />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex justify-center mt-5 items-center">

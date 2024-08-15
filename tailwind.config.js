@@ -18,9 +18,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        'poppins': ["Poppins", "sans-serif"],
-        'pt': ["PT Serif", "serif"],
-        'kristi': ["Kristi", "cursive"],
+        "poppins": ["Poppins", "sans-serif"],
+        "pt": ["PT Serif", "serif"],
+        "kristi": ["Kristi", "cursive"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
